@@ -1,0 +1,18 @@
+.custom-colorful {
+    height: 350px;
+}
+
+.custom-colorful__saturation {
+    border-radius: 4px 4px 0 0;
+}
+
+.custom-colorful__hue {
+    height: 40px;
+    border-radius: 0 0 4px 4px;
+}
+
+.custom-colorful__hue-pointer {
+    width: 12px;
+    height: inherit;
+    border-radius: 0;
+}
