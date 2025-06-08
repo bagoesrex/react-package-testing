@@ -1,6 +1,6 @@
 import './App.css'
 import Croner from './packages/Croner/Croner'
-import ReactColorful from './packages/ReactColorful/ReactColorful'
+import ReactColorful from './packages/react-colorful/ReactColorful'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* <ReactColorful /> */}
 
       {/* Croner */}
-      <Croner />
+      {/* <Croner /> */}
     </>
   )
 }

@@ -2,7 +2,6 @@ import { useState } from "react";
 import { HexColorPicker } from "react-colorful";
 import './ReactColorful.css';
 
-
 export default function ReactColorful() {
     const [color, setColor] = useState("#aabbcc");
 
