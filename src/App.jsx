@@ -5,7 +5,10 @@ import './App.css'
 // import ReactColorful from './packages/react-colorful/ReactColorful'
 // import ReactCropper from './packages/react-cropper/ReactCropper'
 // import ReactDatepicker from './packages/react-datepicker/ReactDatepicker'
-import MuiIconsMaterial from './packages/@mui-icons-material/MuiIconsMaterial'
+// import MuiIconsMaterial from './packages/@mui-icons-material/MuiIconsMaterial'
+// import FramerMotion from './packages/framer-motion/FramerMotion'
+// import FramerLayoutMotion from './packages/framer-motion/FramerLayoutMotion'
+import ReactAnimation from './packages/framer-motion/ReactAnimation'
 
 function App() {
   return (
@@ -30,7 +33,12 @@ function App() {
       {/* <ReactDatepicker /> */}
 
       {/* @Mui/Icons-Material */}
-      <MuiIconsMaterial />
+      {/* <MuiIconsMaterial /> */}
+
+      {/* Framer-Motion */}
+      {/* <FramerMotion /> */}
+      {/* <FramerLayoutMotion /> */}
+      <ReactAnimation />
     </>
   )
 }
