@@ -8,7 +8,8 @@ import './App.css'
 // import MuiIconsMaterial from './packages/@mui-icons-material/MuiIconsMaterial'
 // import FramerMotion from './packages/framer-motion/FramerMotion'
 // import FramerLayoutMotion from './packages/framer-motion/FramerLayoutMotion'
-import ReactAnimation from './packages/framer-motion/ReactAnimation'
+// import ReactAnimation from './packages/framer-motion/ReactAnimation'
+import EmblaCarouselReact from './packages/embla-carousel-react/EmblaCarouselReact'
 
 function App() {
   return (
@@ -38,7 +39,10 @@ function App() {
       {/* Framer-Motion */}
       {/* <FramerMotion /> */}
       {/* <FramerLayoutMotion /> */}
-      <ReactAnimation />
+      {/* <ReactAnimation /> */}
+
+      {/* Embla-Carousel-React */}
+      <EmblaCarouselReact />
     </>
   )
 }
