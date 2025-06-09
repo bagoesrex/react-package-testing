@@ -3,7 +3,7 @@
 
 This is a simple example of using [`react-datepicker`](https://www.npmjs.com/package/react-datepicker) in a React project.
 
-![alt text](image-1.png)
+![alt text](./image.png)
 ## Quick examples
 
 ```javascript
