@@ -1,9 +1,10 @@
 import './App.css'
-import FontsourceRoboto from './packages/@fontsource-roboto/FontsourceRoboto'
-import TablerIcons from './packages/@tabler-icons-react/TablerIconsReact'
-import Croner from './packages/Croner/Croner'
-import ReactColorful from './packages/react-colorful/ReactColorful'
-import ReactCropper from './packages/react-cropper/ReactCropper'
+// import FontsourceRoboto from './packages/@fontsource-roboto/FontsourceRoboto'
+// import TablerIcons from './packages/@tabler-icons-react/TablerIconsReact'
+// import Croner from './packages/Croner/Croner'
+// import ReactColorful from './packages/react-colorful/ReactColorful'
+// import ReactCropper from './packages/react-cropper/ReactCropper'
+import ReactDatepicker from './packages/react-datepicker/ReactDatepicker'
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
       {/* <TablerIcons /> */}
 
       {/* @Fontsource/Roboto */}
-      <FontsourceRoboto />
+      {/* <FontsourceRoboto /> */}
+
+      {/* React-Datepicker */}
+      <ReactDatepicker />
     </>
   )
 }
