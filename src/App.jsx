@@ -4,7 +4,8 @@ import './App.css'
 // import Croner from './packages/Croner/Croner'
 // import ReactColorful from './packages/react-colorful/ReactColorful'
 // import ReactCropper from './packages/react-cropper/ReactCropper'
-import ReactDatepicker from './packages/react-datepicker/ReactDatepicker'
+// import ReactDatepicker from './packages/react-datepicker/ReactDatepicker'
+import MuiIconsMaterial from './packages/@mui-icons-material/MuiIconsMaterial'
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
       {/* <FontsourceRoboto /> */}
 
       {/* React-Datepicker */}
-      <ReactDatepicker />
+      {/* <ReactDatepicker /> */}
+
+      {/* @Mui/Icons-Material */}
+      <MuiIconsMaterial />
     </>
   )
 }
