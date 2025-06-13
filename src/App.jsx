@@ -9,7 +9,8 @@ import './App.css'
 // import FramerMotion from './packages/framer-motion/FramerMotion'
 // import FramerLayoutMotion from './packages/framer-motion/FramerLayoutMotion'
 // import ReactAnimation from './packages/framer-motion/ReactAnimation'
-import EmblaCarouselReact from './packages/embla-carousel-react/EmblaCarouselReact'
+// import EmblaCarouselReact from './packages/embla-carousel-react/EmblaCarouselReact'
+import ReactLazyLoadImageComponent from './packages/react-lazy-load-image-component/ReactLazyLoadImageComponent'
 
 function App() {
   return (
@@ -42,7 +43,10 @@ function App() {
       {/* <ReactAnimation /> */}
 
       {/* Embla-Carousel-React */}
-      <EmblaCarouselReact />
+      {/* <EmblaCarouselReact /> */}
+
+      {/* React-Lazy-Load-Image-Component */}
+      <ReactLazyLoadImageComponent />
     </>
   )
 }
